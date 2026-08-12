@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   string name;
+   int num;
+   string city,country;
+   float MontheSalary;
+   int Year_salary=12*MontheSalary;
+   char me;
+   bool married=false;
+   int age,ageAfter5=age+5;
+   cin>>name;
+   cin>>num;
+   cin>>country;
+   cin>>MontheSalary;
+   
+
+   
+   
+   cout<<"*************************\n";
+   cout<<"Name : "<<name<<endl;
+   cout<< "Age :"<<num<<endl;
+   cout<<"country : "<<city<<endl;
+   cout<<"MontheSalary= "<<MontheSalary<<endl;
+   cout<<"Year_salary = "<<Year_salary<<endl;
+   cout<<"Gender ="<<me<<endl;
+   cout<<"married :"<<married<<endl;
+   cout<<"*************************\n";
+
+    
+}

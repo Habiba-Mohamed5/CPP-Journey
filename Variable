@@ -1,0 +1,18 @@
+ #include <iostream>
+using namespace std;
+int main()
+{
+    int myage=21;
+    cout<<myage<<endl;
+    myage=50;
+    cout<<myage<<endl<<endl;
+    int num=52;
+    float FloatNum=7.84;
+    double doubleNum=21.987766389;
+    char letter='m';
+    string MyText="Mohamed" ;
+    bool Boolean=true;
+    int x=4 ,y=10 ,sum=x+y;
+    cout<<sum<<endl;
+    
+}

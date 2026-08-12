@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   string name="habiba Mohamed";
+   int num=21;
+   string city="giza",country="egypt";
+   float MontheSalary=5000;
+   int Year_salary=12*MontheSalary;
+   char me='H';
+   bool married=false;
+   int age=21;
+   cout<<"after "<<age<<" you will";
+    age=100;
+   cout<<"be "<<age<<" old\n\n";
+   cout<<"*************************\n";
+   cout<<"Name : "<<name<<endl;
+   cout<< "Age :"<<num<<endl;
+   cout<<"country : "<<city<<endl;
+   cout<<"MontheSalary= "<<MontheSalary<<endl;
+   cout<<"Year_salary = "<<Year_salary<<endl;
+   cout<<"Gender ="<<me<<endl;
+   cout<<"married :"<<married<<endl;
+   cout<<"*************************\n";
+
+    
+}

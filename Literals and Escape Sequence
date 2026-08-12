@@ -12,3 +12,9 @@ endl=انك كل شوي تفضي السطل و هيك بتاخد وقت عشان
 فالحل هو تعبي 75% و تفضي بعدين يعني مثل ما قال الاستاذ 50 سطر او 100 سطر \n بعدين endl  
 
 */
+ cout <<" \a"<<endl<<endl; //صوت الرن
+    cout <<"sir \\ habiba."<<endl;
+    cout<<"My name  \"habiba\" "<<endl;
+    cout<<"Habiba \t Mohamed\t Abdalrhman \n";
+    //literal االحروف و الارقام البستخدمها
+    //مينفعش احط فيه قيم

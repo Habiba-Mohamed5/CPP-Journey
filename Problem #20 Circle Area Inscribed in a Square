@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a;
+   float by=3.14;
+   
+   
+   cout<<"enter num1\n";
+   cin>>a;
+   
+   float area=(by*(a*a))/4;
+   
+   cout<<area<<endl;
+   
+
+
+}

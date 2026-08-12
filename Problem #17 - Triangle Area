@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a,b;
+   
+   
+   cout<<"enter num1\n";
+   cin>>a;
+   cout<<"enter num2\n";
+   cin>>b;
+   int area=(a/2*b);
+   
+   cout<<area<<endl;
+   
+
+
+}

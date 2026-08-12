@@ -1,6 +1,14 @@
 #include <iostream>
 int main()
 {
-  std::<<"Habiba.";
-  return 0;
+    std::cout<<"***************************\n";
+    std::cout<< "name: Habiba "<<std::endl;
+    std::cout<<"Age :21 years \n";
+    std::cout<<"city :giza "<<std::endl;
+    std::cout<<"***************************\n";
+
+    std::cout<<"i love programming\n\n";
+    std::cout<<"best grads.\n";
+
+    return 0;
 }

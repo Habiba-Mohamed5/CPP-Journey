@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+    double x=64;
+    cout<<"square root "<<sqrt(x)<<endl;
+     cout<<"round  "<<round(2.5)<<endl; //تقريب الرقم ل اقرب رقم صحيح
+     cout<<"power "<<pow(4,3)<<endl;
+     cout<<"ceil "<<ceil(2.1)<<endl;
+     cout<<"floor "<<floor(2.9)<<endl;
+     cout<<"Absolute fun "<<abs(-5)<<endl;
+    
+    return 0;
+}

@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// الفانكشن بتستقبل أطوال الأضلاع التلاتة
+float area(float a, float b, float c){
+    
+    // 1. بنحسب نصف المحيط ونخزنه في متغير اسمه s
+    float s = (a + b + c) / 2;
+    
+    // 2. بنطبق قانون المساحة باستخدام دالة الجذر sqrt
+    return sqrt(s * (s - a) * (s - b) * (s - c));
+}
+
+int main() 
+{
+   float a, b, c; // وحدنا الأسماء عشان تكون واضحة
+   
+   cout << "Enter a:" << endl;
+   cin >> a;
+   
+   cout << "Enter b:" << endl;
+   cin >> b;
+   
+   cout << "Enter c:" << endl;
+   cin >> c;
+   
+   // بصينا التلات متغيرات للفانكشن زي ما هي مستنية مننا بالظبط
+   cout << "The Area = " << area(a, b, c) << endl;
+   
+   return 0;
+}

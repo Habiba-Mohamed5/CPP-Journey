@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+float area(int a){
+    float pi=3.14;
+    return pi*pow(a,2) ;
+}
+
+int main() 
+{
+   int num1;
+   cout<<"num1"<<endl;
+   cin>>num1;
+   
+   cout<<area(num1)<<endl;
+}

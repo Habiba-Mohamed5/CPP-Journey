@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// الفانكشن بتستقبل أطوال الأضلاع التلاتة
+float seconds(float d,float h,float m,float s){
+    
+    return ((d*24*60*60)+(h*60*60)+(m*60)+(s));
+}
+
+int main() 
+{
+   float d,h,m,s;
+   
+   cout << "Enter d:" << endl;
+   cin >> d;
+   cout << "Enter h:" << endl;
+   cin >> h;
+   cout << "Enter d:" << endl;
+   cin >> m;
+   cout << "Enter h:" << endl;
+   cin >> s;
+   
+   
+   
+   // بصينا التلات متغيرات للفانكشن زي ما هي مستنية مننا بالظبط
+   cout << "seconds : "<<seconds(d,h,m,s)<<endl;
+   
+   return 0;
+}

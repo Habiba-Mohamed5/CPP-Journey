@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void swap(){
+    int x,y,swap;
+    cout<<"enter x";
+    cin>>x;
+    cout<<"enter y"<<endl;
+    cin>>y;
+    cout<<x<<endl;
+    cout<<y<<endl;
+    swap=x;
+    x=y;
+    y=swap;
+    cout<<x<<endl;
+    cout<<y<<endl;
+}
+
+int main() 
+{
+   swap();
+}

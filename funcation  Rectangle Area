@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int area(int a,int b){
+    
+    return a*b;
+}
+
+int main() 
+{
+   int num1,num2;
+   cout<<"num1"<<endl;
+   cin>>num1;
+   cout<<"num2"<<endl;
+   cin>>num2;
+   cout<<area(num1,num2)<<endl;
+}

@@ -1,0 +1,99 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    // 1. جدول الضرب
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= 10; j++)
+        {
+            cout << i << " * " << j << " = " << i * j << endl;
+        }
+        cout << "\n";
+    } // تم إضافة هذا القوس الذي كان مفقوداً
+
+    // 2. مربع نجوم 10x10
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= 10; j++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+
+    // 3. مثلث نجوم معتدل
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+
+    // 4. أزواج الحروف من A إلى Z
+    for(int i = 65; i <= 90; i++)
+    {
+        for(int j = 65; j <= 90; j++)
+        {
+            cout << (char)i << " " << (char)j << endl;
+        }
+        cout << "\n";
+    }
+
+    // 5. مثلث نجوم معتدل (مكرر)
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+
+    // 6. مثلث نجوم مقلوب
+    for(int i = 10; i >= 1; i--)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+    
+    // 7. مثلث أرقام مقلوب (1 إلى i)
+    for(int i = 10; i >= 1; i--)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            cout << j;
+        }
+        cout << "\n";
+    }
+
+    // 8. مثلث أرقام معتدل (1 إلى i)
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            cout << j;
+        }
+        cout << "\n";
+    }
+
+    // 9. مثلث أرقام مقلوب بشكل مختلف (i إلى 10)
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = i; j <= 10; j++)
+        {
+            cout << j << " ";
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}

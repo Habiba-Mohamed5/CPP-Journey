@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+void readarray(int arr1[100],int &length)
+{
+    cout<<"enter len"<<endl;
+    cin>>length;
+    for(int i=0;i<=length-1;i++)
+    {
+        cout<<"please enter num"<<i+1<<endl;
+        cin>>arr1[i];
+
+    }
+}
+void printarray(int arr1[100],int &length)
+{
+    for(int i=0;i<=length-1;i++)
+    {
+        cout<<"num "<<i+1<<" : "<<arr1[i]<<endl;
+
+    }
+
+}
+
+
+int calculatsum(int arr1[100],int &length)
+{
+    int sum=0;
+    for(int i=0;i<=length-1;i++){
+        sum+=arr1[i];
+
+    }
+    return sum;
+}
+float calculatavrg(int arr1[100],int &length){
+    return (float)calculatsum(arr1,length)/length;
+}
+int main() 
+{
+    int arr1[100],length=0;
+    readarray(arr1,length);
+    printarray(arr1,length);
+    cout<<"\n***************************\n";
+    cout<<"sum = "<<calculatsum(arr1,length)<<endl;
+    cout<<"avg = "<<calculatavrg(arr1,length)<<endl;
+
+}

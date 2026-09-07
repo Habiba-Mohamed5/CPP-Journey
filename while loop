@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+// دالة لقراءة رقم ضمن نطاق معين مع التحقق من صحته
+int read(int from, int to)
+{
+    int num;
+    cout << "enter num betwan " << from << " and " << to << endl;
+    cin >> num;
+    while (num < from || num > to)
+    {
+        cout << "out try again\n";
+        cin >> num;
+    }
+    return num;
+}
+
+int main()
+{
+    // 1. اختبار حلقة إدخال رقم موجب
+    int num;
+    cout << "enter num" << endl;
+    cin >> num;
+    while (num < 0) {
+        cout << "enter potive" << endl;
+        cin >> num;
+    }
+    cout << num << " postive\n";
+
+    // 2. اختبار طباعة عداد من 1 إلى 5
+    int x = 1;
+    while (x <= 5) {
+        cout << x << endl;
+        x++;
+    }
+
+    // 3. اختبار دالة read المخصصة
+    cout << read(5, 10) << endl;
+
+    return 0;
+}
